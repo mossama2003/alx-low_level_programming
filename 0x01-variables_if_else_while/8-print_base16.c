@@ -10,13 +10,12 @@
 
 int main(void)
 {
-	int digit = 48; /*48: decimal rep of 0*/
+	int digit = 48;
 
-	while (digit <= 120) /*120: decimal rep of f*/
+	while (digit <= 102)
 	{
 		putchar(digit);
 
-		/* after 9 we jump till 96; */
 		if (digit == 57)
 			digit += 39;
 		digit++;
