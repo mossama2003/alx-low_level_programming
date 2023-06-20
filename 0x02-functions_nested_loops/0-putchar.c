@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 
 /**
  * main - Enrgy point
@@ -10,7 +10,9 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	putchar('_');
+	putchar(putchar);
+	putchar('\n');
 
 	return (0);
 }
