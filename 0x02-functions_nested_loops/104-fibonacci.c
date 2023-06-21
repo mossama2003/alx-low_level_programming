@@ -21,6 +21,7 @@ int numLength(int num)
 		num = num / 10;
 		length += 1;
 	}
+	return (length);
 }
 
 /**
