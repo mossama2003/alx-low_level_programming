@@ -9,6 +9,7 @@
  *
  * Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	unsigned long fib1 = 0, fib2 = 1, sum;
@@ -18,7 +19,7 @@ int main(void)
 	{
 		sum = fib1 + fib2;
 
-		if (sum > 40000000)
+		if (sum > 4000000)
 		{
 			break;
 		}
