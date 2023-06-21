@@ -39,7 +39,7 @@ int main(void)
 
 	for (count = 1; count <= 98; count++)
 	{
-		if (f10 > 0)
+		if (f1o > 0)
 		{
 			printf("%lu", f1o);
 		}
