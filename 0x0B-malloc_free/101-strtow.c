@@ -15,7 +15,7 @@ int wrdcnt(char *s)
 	{
 		if (s[i] == ' ')
 		{
-			if (s[i+ 1] != ' ' && s[i + 1] != '\0')
+			if (s[i + 1] != ' ' && s[i + 1] != '\0')
 			{
 				n++;
 			}
@@ -41,7 +41,7 @@ char **strtow(char *str)
 	int i, j, k, l, n = 0, wc = 0;
 	char **w;
 
-	if (str == NULL || *str ++ '\0')
+	if (str == NULL || *str == '\0')
 	{
 		return (NULL);
 	}
@@ -55,7 +55,7 @@ char **strtow(char *str)
 	{
 		return (NULL);
 	}
-	w [n - 1] = NULL;
+	w[n - 1] = NULL;
 	i = 0;
 	while (str[i])
 	{
