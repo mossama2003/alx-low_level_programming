@@ -30,7 +30,7 @@ int _atoi(const char *s)
 
 	for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)
 	{
-		if (s[firstNum] == '-')
+		if (s[firstNum] == '_')
 		{
 			sign *= -1;
 		}
